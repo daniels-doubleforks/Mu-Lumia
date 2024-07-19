@@ -24,8 +24,8 @@
   }
 
   FILE FREEFORM = 8BC595B7-391A-4A9A-8256-5B9983B30392 {
-    SECTION UI = "UefiMenu.cfg"
-    SECTION RAW = Platforms/Microsoft/Lumia950XLPkg/Binaries/RawFiles/UefiMenu.cfg
+    SECTION UI = "Uefi_Menu.cfg"
+    SECTION RAW = Platforms/Microsoft/Lumia950XLPkg/Binaries/RawFiles/Uefi_Menu.cfg
   }
 
   FILE FREEFORM = 19B58ACD-B1F8-4078-B9A5-A33584B680E2 {

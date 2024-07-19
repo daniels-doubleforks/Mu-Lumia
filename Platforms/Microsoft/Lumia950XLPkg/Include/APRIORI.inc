@@ -66,13 +66,15 @@ APRIORI DXE {
 
     INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
+    INF SiliciumPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
+
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SPIDxe/SPIDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf
     # MMCHS is emmc driver afaik?
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/MMCHSDxe/MMCHSDxe.inf
 
-    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
+    #INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/PmicDxe/PmicDxe.inf

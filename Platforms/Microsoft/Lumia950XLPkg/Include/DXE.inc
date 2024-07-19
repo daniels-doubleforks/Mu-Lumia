@@ -94,7 +94,7 @@
     INF MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf
     INF MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf
 
-    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf
+    #INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/HashDxe/HashDxe.inf

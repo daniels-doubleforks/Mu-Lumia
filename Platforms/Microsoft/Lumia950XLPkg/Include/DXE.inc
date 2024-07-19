@@ -18,7 +18,7 @@
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SecurityDxe/SecurityDxe.inf
 
-    INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/VariableDxe/VariableDxe.inf
@@ -29,14 +29,14 @@
     # Use Binary from UEFI.bin instead of MdeModulePkg
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
 
-    INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
 
     INF MdeModulePkg/Universal/PrintDxe/PrintDxe.inf
     INF MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe.inf
-    INF MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
-    INF MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
-    INF MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
-    INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/Console/ConSplitterDxe/ConSplitterDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmbiosDxe/SmbiosDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmBiosTableDxe/SmBiosTableDxe.inf
@@ -45,7 +45,6 @@
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
-    INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/InterruptDxe/InterruptGICDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
@@ -80,7 +79,7 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/PmicDxe/PmicDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ChargerDxe/ChargerDxe.inf
-    INF MmoPkg/Drivers/UsbTypeCDxe/UsbTypeCDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MmoPkg/Drivers/UsbTypeCDxe/UsbTypeCDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/TsensDxe/TsensDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/MpParkDxe/MpParkDxe.inf
@@ -89,7 +88,7 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/EhciDxe/EhciDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/XhciDxe/XhciDxe.inf
 
-    # Use Binary from UEFI.bin instead of MdeModulePkg
+    # Use Binary from MdeModulePkg instead of uefi.bin
     INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
 
     INF MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf

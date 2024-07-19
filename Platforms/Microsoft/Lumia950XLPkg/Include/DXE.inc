@@ -40,9 +40,7 @@
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmbiosDxe/SmbiosDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmBiosTableDxe/SmBiosTableDxe.inf
-
-    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
-
+    #here lies acpitabledxe
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/InterruptDxe/InterruptGICDxe.inf

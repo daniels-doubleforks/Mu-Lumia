@@ -27,7 +27,7 @@ APRIORI DXE {
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
 
-    // Use Binary from UEFI.bin instead of MdeModulePkg
+    # Use Binary from UEFI.bin instead of MdeModulePkg
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
 
     INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
@@ -55,7 +55,7 @@ APRIORI DXE {
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ULogDxe/ULogDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/NpaDxe/NpaDxe.inf
 
-    // Use Binary from UEFI.bin instead of MdeModulePkg
+    # Use Binary from UEFI.bin instead of MdeModulePkg
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/DiskIoDxe/DiskIoDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/PartitionDxe/PartitionDxe.inf
 
@@ -73,7 +73,7 @@ APRIORI DXE {
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SPIDxe/SPIDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/CrashDumpDxe/CrashDumpDxe.inf
-    // MMCHS is emmc driver afaik?
+    # MMCHS is emmc driver afaik?
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/MMCHSDxe/MMCHSDxe.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
@@ -90,7 +90,7 @@ APRIORI DXE {
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/EhciDxe/EhciDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/XhciDxe/XhciDxe.inf
 
-    // Use Binary from UEFI.bin instead of MdeModulePkg
+    # Use Binary from UEFI.bin instead of MdeModulePkg
     INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
 
     INF MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf

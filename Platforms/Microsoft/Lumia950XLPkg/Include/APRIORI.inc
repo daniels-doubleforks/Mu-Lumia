@@ -19,6 +19,8 @@ APRIORI DXE {
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SecurityDxe/SecurityDxe.inf
 
+    INF QcomPkg/Drivers/DynamicRamDxe/DynamicRamDxe.inf
+
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf

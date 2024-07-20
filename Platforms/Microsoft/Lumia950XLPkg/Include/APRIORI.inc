@@ -64,7 +64,7 @@ APRIORI DXE {
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
 
-    INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
+    # INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
 
     INF SiliciumPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 

@@ -26,7 +26,6 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
 
-    # Use Binary from UEFI.bin instead of MdeModulePkg
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
@@ -39,7 +38,6 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmbiosDxe/SmbiosDxe.inf
-    #here lies acpitabledxe
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/AcpiPlatformDxe/AcpiPlatformDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/InterruptDxe/InterruptGICDxe.inf
@@ -50,7 +48,6 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ULogDxe/ULogDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/NpaDxe/NpaDxe.inf
 
-    # Use Binary from UEFI.bin instead of MdeModulePkg
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/DiskIoDxe/DiskIoDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/PartitionDxe/PartitionDxe.inf
 
@@ -63,8 +60,9 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
 
+    # Asserts
     # INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
-   
+
     INF SiliciumPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SPIDxe/SPIDxe.inf
@@ -90,6 +88,7 @@
     # Use Binary from MdeModulePkg instead of uefi.bin
     INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
 
+    # Causes assert
     #INF MdeModulePkg/Bus/Usb/UsbKbDxe/UsbKbDxe.inf
     #INF MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf
 

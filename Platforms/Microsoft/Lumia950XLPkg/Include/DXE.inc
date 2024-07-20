@@ -17,6 +17,7 @@
     INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
 
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SecurityDxe/SecurityDxe.inf
+    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmemDxe/SmemDxe.inf
 
     INF QcomPkg/Drivers/DynamicRamDxe/DynamicRamDxe.inf
 
@@ -45,7 +46,6 @@
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/InterruptDxe/InterruptGICDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
-    INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmemDxe/SmemDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/SmdDxe/SmdDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/ULogDxe/ULogDxe.inf
     INF Platforms/Microsoft/Lumia950XLPkg/Binaries/QcomPkg/Drivers/NpaDxe/NpaDxe.inf
